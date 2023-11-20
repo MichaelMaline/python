@@ -4,7 +4,7 @@ from television import *
 
 class Test:
     def setup_method(self):
-        self.tv1 = Television
+        self.tv1 = Television()
 
     def teardown_method(self):
         del self.tv1
